@@ -1,3 +1,5 @@
+import { snappyProcess, affordablePrices, peopleFirst } from "./assets";
+
 export const navLinks = [
   {
     id: 1,
@@ -18,19 +20,19 @@ export const features = [
     id: 1,
     title: "Snappy Process",
     body: "Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.",
-    icon: "",
+    icon: snappyProcess,
   },
   {
     id: 2,
     title: "Affordable Prices",
     body: "We don’t want you worrying about high monthly costs. Our prices may be low,but we still offer the best coverage possible.",
-    icon: "",
+    icon: affordablePrices,
   },
   {
     id: 3,
     title: "People First",
     body: "Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.",
-    icon: "",
+    icon: peopleFirst,
   },
 ];
 
