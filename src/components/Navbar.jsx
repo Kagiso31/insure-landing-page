@@ -1,12 +1,13 @@
 import { logo, hamburger, close, patterns } from "../constants/assets";
 import { navLinks } from "../constants";
 import { useState } from "react";
+import Button from "../components/Button";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex justify-between items-center container mx-auto py-6 sm:py-5 px-6 sm:px-2 xl:px-0 ">
+    <header className="flex justify-between items-center container mx-auto py-6 sm:py-5 px-6 sm:px-2 xl:px-0">
       <div>{logo}</div>
 
       <nav className="hidden sm:block">
@@ -22,12 +23,7 @@ const Navbar = () => {
             </li>
           ))}
 
-          <button
-            className="font-bold uppercase px-6 py-4 border-2 transition-colors ease-in-out delay-75 hover:text-neutral-gray-very-light hover:bg-primary-violet-dark"
-            type="button"
-          >
-            View Plans
-          </button>
+          <Button text="View Plans" />
         </ul>
       </nav>
 
@@ -41,7 +37,7 @@ const Navbar = () => {
         <div
           className={`${
             toggleMenu ? "block" : "hidden"
-          } absolute top-20 inset-x-0 bottom-0 pt-12 px-6 bg-neutral-violet-very-dark`}
+          } absolute z-10 top-20 inset-x-0 bottom-0 pt-12 px-6 bg-neutral-violet-very-dark`}
         >
           <ul className="flex flex-col items-center relative z-10">
             {navLinks.map((link, index) => (

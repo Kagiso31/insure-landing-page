@@ -5,7 +5,7 @@ export const hamburger = (
       <path
         fill="#FFF"
         stroke="#2C2830"
-        stroke-width="1.5"
+        strokeWidth="1.5"
         d="M.75.75h30.5v30.5H.75z"
       />
       <g fill="#2C2830">
@@ -21,7 +21,7 @@ export const close = (
       <path
         fill="#FFF"
         stroke="#2C2830"
-        stroke-width="1.5"
+        strokeWidth="1.5"
         d="M.75.75h30.5v30.5H.75z"
       />
       <g fill="#2C2830">
