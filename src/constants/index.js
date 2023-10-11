@@ -1,4 +1,12 @@
-import { snappyProcess, affordablePrices, peopleFirst } from "./assets";
+import {
+  snappyProcess,
+  affordablePrices,
+  peopleFirst,
+  facebook,
+  twitter,
+  pinterest,
+  instagram,
+} from "./assets";
 
 export const navLinks = [
   {
@@ -41,25 +49,25 @@ export const socialLinks = [
     id: 1,
     title: "Facebook",
     link: "https://www.facebook.com",
-    icon: "",
+    icon: facebook,
   },
   {
     id: 2,
     title: "Twitter",
     link: "https://www.twitter.com",
-    icon: "",
+    icon: twitter,
   },
   {
     id: 3,
     title: "Pinterest",
     link: "https://www.pinterest.com",
-    icon: "",
+    icon: pinterest,
   },
   {
     id: 4,
     title: "Instagram",
     link: "https://www.instagram.com",
-    icon: "",
+    icon: instagram,
   },
 ];
 
